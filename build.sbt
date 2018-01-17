@@ -23,3 +23,8 @@ lazy val routing = (project in file("routing"))
   .settings(
     libraryDependencies ++= routingDeps
   )
+
+lazy val actorPath = (project in file("actor-path"))
+  .settings(
+    libraryDependencies ++= helloAkkaDeps
+  )
